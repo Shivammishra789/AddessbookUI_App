@@ -22,7 +22,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
         if (addressRegex.test(address.value)) addressError.textContent = "";
         else addressError.textContent = "Address is Incorrect";
     });
-
 });
 
 // save functionality of submit button defined 
