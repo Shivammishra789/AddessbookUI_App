@@ -36,10 +36,6 @@ class addressbookData {
         return this._state;
     }
 
-    set salary(salary) {
-        this._state = state;
-    }
-
     get zip() {
         return this._zip;
     }
